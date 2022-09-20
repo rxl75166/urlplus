@@ -3,7 +3,7 @@
 This is a simple bash script for getting passive urls from a gau, gauplus, waybackurls from a Multiple Subdomain.
 
 How to use
-<code>git clone https://github.com/rxl75166/urlplus.git<code>
+<div>git clone https://github.com/rxl75166/urlplus.git<div>
 <code>cd urlplus<code>
 chmod +x urlplus.sh
 ./urlplus.sh subdomains.txt
