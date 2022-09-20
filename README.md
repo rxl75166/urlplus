@@ -4,7 +4,7 @@ This is a simple bash script for getting passive urls from a gau, gauplus, wayba
 
 How to use
 <code>git clone https://github.com/rxl75166/urlplus.git<code>
-cd urlplus
+<code>cd urlplus<code>
 chmod +x urlplus.sh
 ./urlplus.sh subdomains.txt
 All in one Command
