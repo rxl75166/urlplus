@@ -61,10 +61,54 @@ printf "✅ Csv data :$(wc -l output-urlplus/csv.txt | awk '{print $1}')\n"
 
 echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 
-echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 printf "Grep txt Started\n"
 cat output-urlplus/live-urls.txt | grep ".txt" >output-urlplus/txt.txt
-printf "✅ Csv data :$(wc -l output-urlplus/txt.txt | awk '{print $1}')\n"
+printf "✅ Txt data :$(wc -l output-urlplus/txt.txt | awk '{print $1}')\n"
 
 echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 
+printf "Grep xls Started\n"
+cat output-urlplus/live-urls.txt | grep ".xls" >output-urlplus/xls.txt
+printf "✅ Xls data :$(wc -l output-urlplus/xls.txt | awk '{print $1}')\n"
+
+echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+
+printf "Grep doc Started\n"
+cat output-urlplus/live-urls.txt | grep ".doc" >output-urlplus/doc.txt
+printf "✅ Doc data :$(wc -l output-urlplus/doc.txt | awk '{print $1}')\n"
+
+echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+
+printf "Grep pdf Started\n"
+cat output-urlplus/live-urls.txt | grep ".pdf" >output-urlplus/pdf.txt
+printf "✅ Pdf data :$(wc -l output-urlplus/pdf.txt | awk '{print $1}')\n"
+
+echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+
+printf "Grep php Started\n"
+cat output-urlplus/live-urls.txt | grep ".php" >output-urlplus/php.txt
+printf "✅ Php data :$(wc -l output-urlplus/php.txt | awk '{print $1}')\n"
+
+echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+
+printf "Grep asp Started\n"
+cat output-urlplus/live-urls.txt | grep ".asp" >output-urlplus/asp.txt
+printf "✅ Asp data :$(wc -l output-urlplus/asp.txt | awk '{print $1}')\n"
+
+echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+
+printf "Grep bak Started\n"
+cat output-urlplus/live-urls.txt | grep ".bak" >output-urlplus/bak.txt
+printf "✅ Bak data :$(wc -l output-urlplus/bak.txt | awk '{print $1}')\n"
+
+echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+
+printf "Grep env Started\n"
+cat output-urlplus/live-urls.txt | grep ".env" >output-urlplus/env.txt
+printf "✅ Env data :$(wc -l output-urlplus/env.txt | awk '{print $1}')\n"
+
+echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+
+printf "Grep api Started\n"
+cat output-urlplus/live-urls.txt | grep "api" >output-urlplus/api.txt
+printf "✅ Api data :$(wc -l output-urlplus/api.txt | awk '{print $1}')\n"
