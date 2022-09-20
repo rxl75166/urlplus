@@ -2,8 +2,21 @@
 
 echo -e $Yellow "
 
-
-           Imran & Shaharia
+  ||       || ||||||||      ||
+  ||       || ||      ||    ||
+  ||       || ||       ||   ||
+  ||       || ||      ||    ||
+  ||       || ||   ||       ||
+  ||       || ||      ||    ||
+  ||=======|| ||       ||   ||=========
+  
+  
+  
+  
+  
+  
+  
+  Shaharia
 
 "
 
@@ -29,6 +42,8 @@ cat output-urlplus/waybackurls.txt output-urlplus/hakrawler.txt output-urlplus/g
 
 cat output-urlplus/all-urls.txt | httpx > output-urlplus/live-urls.txt
 
+rm output-urlplus/all-urls.txt
+
 echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 
 printf "Total all-urls :$(wc -l output-urlplus/all-urls.txt)\n"
@@ -45,3 +60,11 @@ cat output-urlplus/live-urls.txt | grep ".csv" >output-urlplus/csv.txt
 printf "✅ Csv data :$(wc -l output-urlplus/csv.txt | awk '{print $1}')\n"
 
 echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+
+echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+printf "Grep txt Started\n"
+cat output-urlplus/live-urls.txt | grep ".txt" >output-urlplus/txt.txt
+printf "✅ Csv data :$(wc -l output-urlplus/txt.txt | awk '{print $1}')\n"
+
+echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+
