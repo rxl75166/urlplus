@@ -13,10 +13,6 @@ All in one Command
 
 git clone https://github.com/rxl75166/urlplus.git; cd urlplus; chmod +x urlplus.sh 
 
-<!DOCTYPE html>
-<html>
-<body>
-
 <p>Click on the button to copy</p>
 
 <input type="text" value="Hello World" id="myInput">
@@ -32,6 +28,3 @@ function myFunction() {
   alert("Copied the text: " + copyText.value);
 }
 </script>
-
-</body>
-</html>
