@@ -25,7 +25,7 @@ printf "Total Targets: $(wc -l $1 | awk '{print $1}')\n"
 mkdir -p output-urlplus
 echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 printf "Waybackurls Started\n"
-cat $1 | xargs -P 100 -I X bash -c "echo 'X' | waybackurls > output-urlplus/waybackurls.txt > /dev/null"
+cat $1 | waybackurls > output-urlplus/waybackurls.txt >
 printf "✅ Waybackurls data :$(wc -l output-urlplus/waybackurls.txt | awk '{print $1}')\n"
 
 echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
