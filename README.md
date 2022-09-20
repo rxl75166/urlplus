@@ -11,9 +11,4 @@ chmod +x urlplus.sh
 
 All in one Command
 
-git clone https://github.com/rxl75166/urlplus.git; cd urlplus; chmod +x urlplus.sh 
-
-<p>Click on the button to copy</p>
-
-<input type="text" value="Hello World" id="myInput">
-<button onclick="myFunction()">Copy text</button>
+git clone https://github.com/rxl75166/urlplus.git; cd urlplus; chmod +x urlplus.sh
