@@ -7,6 +7,7 @@ How to use
 <div>cd urlplus<div>
 chmod +x urlplus.sh
 ./urlplus.sh subdomains.txt
+  
 All in one Command
 
 git clone https://github.com/rxl75166/urlplus.git; cd urlplus; chmod +x urlplus.sh 
