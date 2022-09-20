@@ -29,7 +29,7 @@ printf "✅ hakrawler data :$(wc -l output-urlplus/hakrawler.txt | awk '{print $
 
 echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
 printf "Gau Data Started\n"
-cat $1 | gau --o output-urlplus/gau.txt
+cat $1 | gau --providers commoncrawl,otx,urlscan --o output-urlplus/gau.txt
 printf "✅ Gau data :$(wc -l output-urlplus/gau.txt | awk '{print $1}')\n"
 
 cat output-urlplus/waybackurls.txt output-urlplus/hakrawler.txt output-urlplus/gau.txt | sort -u > output-urlplus/all-urls.txt
