@@ -6,6 +6,7 @@ How to use
 <div>git clone https://github.com/rxl75166/urlplus.git<div>
 <div>cd urlplus<div>
 chmod +x urlplus.sh
+ 
 ./urlplus.sh subdomains.txt
   
 
