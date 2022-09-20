@@ -29,7 +29,7 @@ cat $1 | xargs -P 100 -I X bash -c "echo 'X' | waybackurls > output-urlplus/wayb
 printf "✅ Waybackurls data :$(wc -l output-urlplus/waybackurls.txt | awk '{print $1}')\n"
 
 echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
-printf "Hawrawler Data Started\n"
+printf "Hakrawler Data Started\n"
 cat $1 | hakrawler > output-urlplus/hakrawler.txt
 printf "✅ hakrawler data :$(wc -l output-urlplus/hakrawler.txt | awk '{print $1}')\n"
 
